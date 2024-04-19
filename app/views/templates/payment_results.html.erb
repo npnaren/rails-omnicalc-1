@@ -1,0 +1,42 @@
+<table style="width: 100%" border="1">
+  <tbody><tr>
+    <td>
+      <strong>Calculators</strong>
+    </td>
+    <td>
+      <a href="/square/new">
+        Square with Form
+      </a>
+    </td>
+    <td>
+      <a href="/square_root/new">
+        Square Root with Form
+      </a>
+    </td>
+
+    <td>
+      <a href="/payment/new">
+        Payment with Form
+      </a>
+    </td>
+
+    <td>
+      <a href="/random/new">
+        Random with Form
+      </a>
+    </td>
+  </tr>
+</tbody>
+</table>
+<h1>Payment Results</h1> 
+  <dt> APR </dt> 
+  <%= @apr_percent %> 
+  <dt> Number of Years </dt> 
+  <%= @years %>
+  <dt> Principal </dt> 
+  <%= @principal %> 
+  <dt> Payment </dt> 
+  <%= @payment %>
+<div>
+  <a href="/payment/new"> Calculate another payment </a>
+</div>
